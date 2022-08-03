@@ -4,15 +4,286 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Way 23 </title>
+    <title>Backpack stories</title>
+    <style>
+        body{
+            background-color:rgb(229, 241, 244);
+            font-family: sans-serif;
+        }
+        h1 {
+            font-size: 35px;
+            color: white;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.4em;
+            text-align: center;
+        }
+        h3 {
+            font-size: 1.2em;
+            text-align: center;
+        }
+        figcaption {
+            font-size: 1em; 
+            color: darkgray;
+        }
+        p {
+            font-size: 1em;
+            
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color:rgb(43, 245, 97);
+        }
+        a:active{
+            color: rgb(210, 231, 23);
+        }
+
+        .fig {
+            text-align: center;
+        }
+        
+        .head {
+            padding: 30px 10px 10px 10px;
+            background: url(img/bg_header.jpeg) center center/cover no-repeat;
+    
+        }
+
+        .name_backpack {
+            display: grid;
+            text-align: left;
+            
+        }
+        
+
+        .first_quote {
+            text-align: right;
+        }
+
+        .footer {
+            display: grid;
+            grid-template-columns: repeat(3, [col] 1fr);
+            grid-template-rows: repeat(3, [row] 1fr);
+            text-align: center;
+            background: url(img/img_footer.jpeg)center center/cover no-repeat;
+            padding: 20px auto;
+
+        }
+
+        .footer_s {
+            color: white;
+        }
+
+        .f1 {
+            grid-column: col 1/ span 1;
+            grid-row: row 2/span 2;
+        }
+        .f2 {
+            grid-column: col 2/ col 3;
+            grid-row: row 2/span 2;
+        }
+
+        .f3 {
+            grid-column: col 3/ span 3;
+            grid-row: row 2/span 2;
+        }
+        
+
+
+    </style>
 </head>
 <body>
-    <h1>Камино-де-СантьягOefe! </h1>
-    <hr>
-    <h2>Камино-де-Сантьяго – Путь Святого Иакова</h2>
-    <img width='500' src="img/street.jpg" alt="street">
-    <p width='500'>Существует около 15 различных вариантов Пути, но самых популярных четыре: Французский (800 км через Пиренеи и по центральной Испании), Примитиво (315 км, старейший и самый сложный маршрут из Овьедо), Северный путь (860 км по северному побережью Испании) и Португальский (400 км из Лиссабона или 240 км из Порту вдоль океана). В среднем, путники в день проходят по 20-30 км, и таким образом Французский путь преодолевают за 32 дня, а из Порту в Сантьяго доходят за десять. Конечно, не каждый может физически пройти такие расстояния – многие сокращают дистанцию или идут не спеша, растягивая время в пути. Есть даже те, кто проезжает Камино на велосипедах или верхом на лошадях. Но в основном пилигримы идут. Для официального «зачета» нужно пройти 100 км, и неважно, какой отрезок это будет – начать можно в любом месте. </p>
-    <img width='500' src="img/sea_1.jpg" alt="sea">
+    <header class="head">
+        <div class="name_backpack">
+            <h1>Backpack stories and other</h1>
+            <q class="first_quote">Not all those that wander are lost.</q>
+            <address class="first_quote">J.R.R. Tolkien</address>
+        </div>
+        <nav> 
+            <div class="places">
+                <a href="#Easter_Island">Easter Island</a> |
+                <a href="#Peru">Peru</a> |
+            </div><hr>
+            <br>
+            <a href="#share_story">Add your story</a> |
+            <a href="#join_to_the_journey">Join the journey</a> |
+            <a href="#">Backpacker's checklist</a> |
+            <a href="#footer_id">Contact</a>
+            <hr>
+        </nav> 
+        
+    </header>
+    
+    
+    <main>
+        
+        <section>
+            <h2> <a id="Easter_Island"></a>Easter Island</h2>
+            
+            <article>
+                <h3>Santiago</h3>
+                <figure class="fig">
+                    <img src="img/Easter Island.jpeg" width="70%" height="#"  alt="foto_Easter Island">
+                    <figcaption ><em>The sunrise over Ahu Tongariki. We waited about 15 minutes after everyone had left to get this shot, and had the place almost to ourselves.</em></figcaption>
+                </figure>
+                
+                <p>Most people visit Easter Island on a short trip from Santiago, or from the other alternative at Tahiti. While it’s possible to see the major sites in a few days, we personally believe a week isn’t even enough.</p>
+                <p>There are dozens of things to do in Easter Island, and even though we were out all day, every day (and sometimes at night) we still didn’t get to do them all.</p>
+                <p>That being said we tried our best, and here’s our list of what to do in Easter Island on your next vacation!</p>
+                
+                <blockquote>
+                    <p><em><b>Stay as long as you can after the sun rises to capture some amazing shots once everyone has left</b></em></p>
+                </blockquote>
+                <br><br>
+                <h3>Go Stargazing At Night</h3>
+                <figure class="fig">
+                    <img src="img/Easter Island stars.jpeg" alt="Easter_island_stars" width="70%"  >
+                    <figcaption><em>The night sky over Ahu Tahai, with the lights of Hanga Roa village in the background.</em></figcaption>
+                </figure>
+                
+
+                <p>The remote location of Rapa Nui makes it one of the most phenomenal places to admire the night sky. When the sun sets the stars come out in all their glory!</p>
+                <p>If you’ve grown up in a city, or don’t have the chance to get out into nature all that often, you will be absolutely blown away by the clarity and clearness of the sky in Easter Island!</p>
+                <p>The best part is you don’t even have to leave your hotel to see the Milky Way. If you happen to be on the island during a new moon the lights from Hanga Roa only have a small effect on the sky, meaning you can see everything from right there in town.</p>
+                
+                <time datetime="2021-06-10">6 july 2021</time>
+            </article>
+
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section>
+            <h2> <a id="Peru"></a>Peru</h2>
+            
+            <article>
+                <h3>Machu Picchu</h3>
+                <figure class="fig">
+                    <img src="img/Peru-1.jpeg" width="70%" height="#"  alt="foto_Peru">
+                    <figcaption><em>Machu Picchu – Don’t miss it when you’re backpacking Peru!</em></figcaption>
+                </figure>
+                
+                <p>Most people visit Easter Island on a short trip from Santiago, or from the other alternative at Tahiti. While it’s possible to see the major sites in a few days, we personally believe a week isn’t even enough.</p>
+                <p>There are dozens of things to do in Easter Island, and even though we were out all day, every day (and sometimes at night) we still didn’t get to do them all.</p>
+                <p>That being said we tried our best, and here’s our list of what to do in Easter Island on your next vacation!</p>
+                
+    
+                <br><br>
+                <h3>Arequipa</h3>
+                <figure class="fig">
+                    <img src="img/Peru-2.jpeg" alt="Arequipa_foto" width="70%"  >
+                    <figcaption><em>It’s also a great place to relax and see some of the city’s stunning churches and white-washed colonial buildings.</em></figcaption>
+                </figure>
+                
+
+                <p>One of the strangest yet most fascinating things to see in Arequipa is in Museo Santurios Andinos where the perfectly preserved mummy of a 12-year old girl, who was sacrificed to the mountain gods and frozen into the ice at the top of Ampato Volcano over 500 years ago, is on display. The whole exhibition is weird but seriously cool.</p>
+                <p>If you’ve grown up in a city, or don’t have the chance to get out into nature all that often, you will be absolutely blown away by the clarity and clearness of the sky in Easter Island!</p>
+                <p>The best part is you don’t even have to leave your hotel to see the Milky Way. If you happen to be on the island during a new moon the lights from Hanga Roa only have a small effect on the sky, meaning you can see everything from right there in town.</p>
+                
+                <time datetime="2021-04-10">10 april 2021</time><br><br><br><br>
+            </article>
+
+
+
+        </section>
+
+
+        <section>
+            <fieldset id="share_story">
+                <legend>I want to share my journey</legend>
+                <p>Add your story to inspire others and remind yourself</p>
+
+                <label for="month">When you were on a trip?</label>
+                <br>
+                <input type="month" id="month">
+                <br> <br>
+
+                <label for="users_foto">Add foto</label>
+                <br>
+                <input type="file" multiple id="users_foto">
+                <br> <br>
+
+                <label for="users_dedscribe">Write in more detail about your adventure</label>
+                <br>
+                <textarea id="users_dedscribe" placeholder="don't hold yourself back" cols="80" rows="10" spellcheck="true"></textarea>
+                <br> <br>
+                
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+                <br><br>
+                
+
+            </fieldset>
+        </section><br><br><br><br>
+
+
+        <section>
+            <fieldset id="join_to_the_journey">
+                <legend>Sign up for a trip with us</legend>
+                <p>Add your details and we will write to you)</p>
+
+                <label for="Name"></label>
+                <input id="Name"type="text" placeholder="enter your name">
+                <br><br>
+
+                <label for="Surname"></label>
+                <input id="Surname" type="text" placeholder="enter your last name">
+                <br><br>
+
+                <label for="mail"></label>
+                <input id="mail"type="mail" placeholder="your mail">
+                <br><br>
+                
+                <label for="mail" id="age">Your age</label>
+                <select name="age">
+                    <option value="18-25">18-25</option>
+                    <option value="25-35">25-35</option>
+                    <option value="35-45">35-45</option>
+                    <option value="45-55">45-55</option>
+                    <option value="55-65">55-65</option>
+                    <option value="65-75">65-75</option>
+                </select>
+                <br><br>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+                <br><br>
+                
+
+
+            </fieldset>
+        </section>
+
+
+    </main>
+    
+    <footer>
+        <div class="footer" id="footer_id">
+            <div class="f1">
+                <p class="footer_s">About</p><hr>
+                <a href="#" alt="about_us" class="links_footer" >About us</a><br>
+                <a href="#" alt="contact" class="links_footer" >Contact</a>
+            </div>
+            <div class="f2">
+                <p class="footer_s">Explore</p><hr>
+                <a href="#" alt="Destinations" class="links_footer" >Destinations</a><br>
+                <a href="#" alt="Adventure Travel" class="links_footer">Adventure Travel</a>
+            </div>
+            <div class="f3">
+                <p class="footer_s">Rescources</p><hr>
+                <a href="#" alt="Travel Tips" class="links_footer">Travel Tips</a><br>
+                <a href="#" alt="Adventure Tours" class="links_footer">Adventure Tours</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
+
+
+
+ 
